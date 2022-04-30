@@ -1,0 +1,144 @@
+
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>이력서 양식</title>
+ </head>
+<body>
+
+<font size="2" face="맑은 고딕"> 
+
+<form name="form" method="post" action="resume_save.jsp">
+
+<table border="0" width="500">
+	<tr>
+		<td align="right">
+			<button type="submit">전송</button>
+		</td>
+	</tr>
+</table>
+
+<table	border="0" 
+		width="500" 
+		cellpadding="5" 
+		cellspacing="1"
+		bgcolor="#cccccc" >
+
+	<tr bgcolor="#ffffcc">
+		<th height="50" colspan="2"> 
+			<h2>이력서</h2>
+		</th>
+	</tr>
+	<tr bgcolor="#ffffff">
+		<td width="25%" rowspan="3" align="center">
+			<input type="button" name="img" value="파일선택">
+		</td>
+		<td width="*" height="30" width="*">이름 <input type="text" name="name">  </td>
+	</tr>
+	<tr bgcolor="#ffffff">
+		<td height="30">
+		생일 
+		<select name="year">
+			<option value="2000">2000</option>
+			<option value="2001" selected>2001</option>
+			<option value="2002">2002</option>
+			<option value="2003">2003</option>
+			<option value="2004">2004</option>
+		</select>
+		년 
+		<select name="month">
+			<option value="1">01</option>
+			<option value="2" selected>02</option>
+			<option value="3">03</option>
+		</select>
+		월 
+		<select name="day">
+			<option value="1" selected>01</option>
+			<option value="2">02</option>
+			<option value="3">03</option>
+		</select>
+		일
+		
+		</td>
+	</tr>
+	<tr bgcolor="#ffffff">
+		<td height="30">주소 <input type="text" name="addr" size="40"></td>
+	</tr>
+	<tr bgcolor="#ffffff">
+		<th height="30" colspan="2">
+			학력사항
+		</th>
+	</tr>
+	<tr bgcolor="#ffffff">
+		<td height="25" align="center">
+			<input type="text" name="" size="8">
+		</td>
+		<td>
+			<input type="text" size="26">
+			<select name="">
+				<option selected>고등학교</option>
+				<option>대학교</option>
+				<option>대학원</option>
+			</select>
+			<select name="">
+				<option>재학</option>
+				<option>휴학</option>
+				<option>졸업</option>
+			</select>
+		</td>
+	</tr>
+	<tr bgcolor="#ffffff">
+		<td height="25" align="center">
+			<input type="text" name="" size="8">
+		</td>
+		<td>
+			<input type="text" size="26">
+			<select name="">
+				<option>고등학교</option>
+				<option selected>대학교</option>
+				<option>대학원</option>
+			</select>
+			<select name="">
+				<option>재학</option>
+				<option>휴학</option>
+				<option>졸업</option>
+			</select>
+		</td>
+	</tr>
+	<tr bgcolor="#ffffff">
+		<td height="25" align="center">
+			<input type="text" name="" size="8">
+		</td>
+		<td>
+			<input type="text" size="26">
+			<select name="">
+				<option>고등학교</option>
+				<option>대학교</option>
+				<option selected>대학원</option>
+			</select>
+			<select name="">
+				<option>재학</option>
+				<option>휴학</option>
+				<option>졸업</option>
+			</select>
+		</td>
+	</tr>
+
+
+	<tr bgcolor="#ffffff">
+		<td height="100" colspan="2" align="right">
+			위 내용을 사실임을 증명합니다.
+				<br><br>
+				<input type="text" name="" size="5"> (인)
+		</td>
+	</tr>
+
+</table>
+
+</form>
+
+</font>
+
+</body>
+</html>

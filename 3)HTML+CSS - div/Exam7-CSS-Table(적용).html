@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ 
+ <style>
+/* 테이블 선 굵기 : solid, double, groove, dotted, dashed */
+ table {
+		border:1px solid #009966;
+		font-size:12px;
+		font-family:'맑은 고딕';
+		width:600px;
+		border-collapse:collapse;
+		}
+th,td {
+		border:1px solid #009966;
+		padding:20px;
+		text-align:center;
+		}
+.td_left {
+		text-align:left;
+		}
+#td_right {
+		text-align:right;
+		}
+caption {
+		font-size:20px;
+		color:blue;
+		padding-bottom:10px; /* 캡션이랑 테이블이랑 공간만듦 */
+			}
+ </style>
+
+ <body>
+
+	<table border="1">
+		<caption> 공과금 목록 </caption>
+		<colgroup> 
+		<col width="10%"/>
+		<col width=" * "/>
+		<col width="15%"/>
+		</colgroup>
+
+		<thead>
+			<tr>
+				<th>번호</th>
+				<th>제목</th>
+				<th>날짜</th>
+			<tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td class="td_left">도시가스요금 5,000원</td>
+				<td>2018-02-02</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td id="td_right">수도요금 10,000원</td>
+				<td>2018-02-02</td>
+			</tr>
+		</tbody>
+	</table>
+
+ </body>
+</html>

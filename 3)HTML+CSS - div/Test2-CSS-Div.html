@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>CSS div</title>
+ </head>
+
+ <style>
+
+ body { 
+		font-size : 12px;
+		color : #000033;
+		font-family : 돋움체;
+}
+.div1 {
+		width : 1000px;
+		height : 100px;
+		background-color : yellow;
+		margin-bottom : 3px;
+		text-align : center;			/* 테이블엔 적용 안됨*/
+		vertical-align : middle;	/* 테이블엔 적용 안됨*/
+}
+
+.div2 {
+		width : 1000px;
+		height : 500px;
+		background-color : #ffcc33;
+		text-align : center;
+		vertical-align : center; /* 적용안됨 */
+}
+.table1 {
+		width : 500px;
+		border : 1px solid #ccc;
+		border-collapse: collapse; /* 셀 사이의 공간 제거 */
+}
+.td1 {
+		border : 1px solid #ccc;
+		width : 20%;
+		text-align : center;
+
+}
+ </style>
+
+ <body>
+
+  <div class="div1">
+  		<table class="table1" align="center">
+			<tr>
+				<td class="td1">홈</td>
+				<td class="td1">일반게시판</td>
+				<td class="td1">답변게시판</td>
+				<td class="td1">회원가입</td>
+				<td class="td1">로그인</td>
+			</tr>
+		</table>
+  </div>
+  <div class="div2">
+	Javascript
+
+  </div>
+
+ </body>
+</html>
